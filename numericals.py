@@ -21,13 +21,16 @@ from typing import Any, Optional, Union
 
 import geometry as gm
 import matplotlib
+matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
+# matplotlib.use('TkAgg')
 import matplotlib.colors as mcolors
+# matplotlib.use('TKAgg')
 import numpy as np
 from numpy.random import uniform as unif  # pylint: disable=g-importing-member
 
 
-matplotlib.use('TkAgg')
+# matplotlib.use('TKAgg')
 
 
 ATOM = 1e-12

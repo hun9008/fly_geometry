@@ -25,9 +25,9 @@ absl-py==1.4.0 \
     #   tensorflow-datasets
     #   tensorflow-metadata
     #   tfds-nightly
-array-record==0.4.1 \
-    --hash=sha256:6a0c8ed6fdfaaf2cecd3d5c6b9c13e116ad3299649611c8fd184d64557fbaba8 \
-    --hash=sha256:a74e9c0075860777b79e4b3ac278f67add270acf78520d3b9cf8c325aef42951
+# array-record==0.4.1 \
+  #  --hash=sha256:6a0c8ed6fdfaaf2cecd3d5c6b9c13e116ad3299649611c8fd184d64557fbaba8 \
+  #  --hash=sha256:a74e9c0075860777b79e4b3ac278f67add270acf78520d3b9cf8c325aef42951
     # via
     #   tensorflow-datasets
     #   tfds-nightly
@@ -158,9 +158,9 @@ click==8.1.7 \
     #   nltk
     #   tensorflow-datasets
     #   tfds-nightly
-clu==0.0.7 \
-    --hash=sha256:028cb27b7c1b32a59e969477d3ffe9d6b3e80d4c860ac1195cc9e46eacb0605f \
-    --hash=sha256:449a9af179c3a5c44fc18947fb844a00ea2cd31e3ede13167ff6efe89367db2b
+#clu==0.0.7 \
+  #  --hash=sha256:028cb27b7c1b32a59e969477d3ffe9d6b3e80d4c860ac1195cc9e46eacb0605f \
+   # --hash=sha256:449a9af179c3a5c44fc18947fb844a00ea2cd31e3ede13167ff6efe89367db2b
     # via
     #   -r requirements.in
     #   seqio
@@ -1674,13 +1674,13 @@ sentencepiece==0.1.99 \
     #   seqio
     #   seqio-nightly
     #   t5
-seqio==0.0.18 \
-    --hash=sha256:2b2c4a50e507e2cbe2fc171005e2ff35ad50ee7899b2929a3d532b68b4c38424 \
-    --hash=sha256:856fec6be4f2f5f5ffafb10d36b41f6a5b90670ee964dd600a341c6319349c7b
+#seqio==0.0.18 \
+ #   --hash=sha256:2b2c4a50e507e2cbe2fc171005e2ff35ad50ee7899b2929a3d532b68b4c38424 \
+ #   --hash=sha256:856fec6be4f2f5f5ffafb10d36b41f6a5b90670ee964dd600a341c6319349c7b
     # via -r requirements.in
-seqio-nightly==0.0.17.dev20231013 \
-    --hash=sha256:60fcc81f439a486a12e46cbce193e88af1440d19ffeb19eb64eac8bc8e99488f \
-    --hash=sha256:9474513d7f6ebf2d62b762bcfd82822dbb7f40b6c39e9e07bee292e85ffa6d3a
+#seqio-nightly==0.0.17.dev20231013 \
+ #   --hash=sha256:60fcc81f439a486a12e46cbce193e88af1440d19ffeb19eb64eac8bc8e99488f \
+  #  --hash=sha256:9474513d7f6ebf2d62b762bcfd82822dbb7f40b6c39e9e07bee292e85ffa6d3a
     # via t5
 six==1.16.0 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
@@ -1700,8 +1700,8 @@ soupsieve==2.5 \
     --hash=sha256:5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690 \
     --hash=sha256:eaa337ff55a1579b6549dc679565eac1e3d000563bcb1c8ab0d0fefbc0c2cdc7
     # via beautifulsoup4
-t5==0.9.4 \
-    --hash=sha256:53e40efdfc4d8f614cd8d38301e39d5c146f9d5fd66b6823d9c181b60370b2b5
+#t5==0.9.4 \
+   # --hash=sha256:53e40efdfc4d8f614cd8d38301e39d5c146f9d5fd66b6823d9c181b60370b2b5
     # via -r requirements.in
 tabulate==0.9.0 \
     --hash=sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c \
@@ -1740,9 +1740,9 @@ tensorflow==2.13.0 \
     #   -r requirements.in
     #   clu
     #   tensorflow-text
-tensorflow-datasets==4.9.3 \
-    --hash=sha256:09cd60eccab0d5a9d15f53e76ee0f1b530ee5aa3665e42be621a4810d9fa5db6 \
-    --hash=sha256:90390077dde2c9e4e240754ddfc5bb50b482946d421c8a34677c3afdb0463427
+#tensorflow-datasets==4.9.3 \
+  #  --hash=sha256:09cd60eccab0d5a9d15f53e76ee0f1b530ee5aa3665e42be621a4810d9fa5db6 \
+ #   --hash=sha256:90390077dde2c9e4e240754ddfc5bb50b482946d421c8a34677c3afdb0463427
     # via
     #   -r requirements.in
     #   clu
@@ -1815,9 +1815,9 @@ termcolor==2.3.0 \
     #   tensorflow
     #   tensorflow-datasets
     #   tfds-nightly
-tfds-nightly==4.9.2.dev202308090034 \
-    --hash=sha256:16cb572ec9b602b4202d2dc30c741f8cd1c63d8bb82e7d6024eea3b7e28e7d1c \
-    --hash=sha256:a6ad764739f33b04b1bd4104a7373149c10455ce9378cbef6cb830339db2861c
+#tfds-nightly==4.9.2.dev202308090034 \
+ #   --hash=sha256:16cb572ec9b602b4202d2dc30c741f8cd1c63d8bb82e7d6024eea3b7e28e7d1c \
+ #   --hash=sha256:a6ad764739f33b04b1bd4104a7373149c10455ce9378cbef6cb830339db2861c
     # via
     #   seqio
     #   seqio-nightly

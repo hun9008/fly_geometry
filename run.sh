@@ -22,12 +22,12 @@ source ./bin/activate
 
 pip install --require-hashes -r requirements.txt
 
-gdown --folder https://bit.ly/alphageometry
+# gdown --folder https://bit.ly/alphageometry
 DATA=ag_ckpt_vocab
 
 MELIAD_PATH=meliad_lib/meliad
-mkdir -p $MELIAD_PATH
-git clone https://github.com/google-research/meliad $MELIAD_PATH
+#mkdir -p $MELIAD_PATH
+#git clone https://github.com/google-research/meliad $MELIAD_PATH
 export PYTHONPATH=$PYTHONPATH:$MELIAD_PATH
 
 DDAR_ARGS=(
@@ -65,7 +65,7 @@ echo $PYTHONPATH
 python -m alphageometry \
 --alsologtostderr \
 --problems_file=$(pwd)/examples.txt \
---problem_name=orthocenter \
+--problem_name=orthocenter_aux \
 --mode=alphageometry \
 "${DDAR_ARGS[@]}" \
 "${SEARCH_ARGS[@]}" \

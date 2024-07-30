@@ -29,7 +29,6 @@ import lm_inference as lm
 import pretty as pt
 import problem as pr
 
-
 _GIN_SEARCH_PATHS = flags.DEFINE_list(
     'gin_search_paths',
     ['third_party/py/meliad/transformer/configs'],
